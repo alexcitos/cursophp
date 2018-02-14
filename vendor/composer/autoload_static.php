@@ -20,6 +20,7 @@ class ComposerStaticInitabd6be6dc53ee808a0681d1544fcfbed
         array (
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Component\\Translation\\' => 30,
+            'Sirius\\Validation\\' => 18,
         ),
         'P' => 
         array (
@@ -36,6 +37,7 @@ class ComposerStaticInitabd6be6dc53ee808a0681d1544fcfbed
         ),
         'D' => 
         array (
+            'Dotenv\\' => 7,
             'Doctrine\\Common\\Inflector\\' => 26,
         ),
         'C' => 
@@ -60,6 +62,10 @@ class ComposerStaticInitabd6be6dc53ee808a0681d1544fcfbed
         'Symfony\\Component\\Translation\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/translation',
+        ),
+        'Sirius\\Validation\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/siriusphp/validation/src',
         ),
         'Psr\\SimpleCache\\' => 
         array (
@@ -88,6 +94,10 @@ class ComposerStaticInitabd6be6dc53ee808a0681d1544fcfbed
         'Illuminate\\Container\\' => 
         array (
             0 => __DIR__ . '/..' . '/illuminate/container',
+        ),
+        'Dotenv\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/vlucas/phpdotenv/src',
         ),
         'Doctrine\\Common\\Inflector\\' => 
         array (
